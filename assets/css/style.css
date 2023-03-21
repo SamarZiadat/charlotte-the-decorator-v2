@@ -1,1 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Cantarell:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Cantarell, sans-serif;
+    font-size: 100%;
+    color: #4d4d4d;
+    max-width: 2000px;
+    margin-right: auto;
+    margin-left: auto;
+  }
