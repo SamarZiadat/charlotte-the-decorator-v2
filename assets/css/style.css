@@ -16,3 +16,26 @@ body {
     margin-left: auto;
 }
 
+/* Content Containers */
+
+.content-container {
+    padding: 50px 30px 50px 30px;
+}
+
+/* Container Wrappers*/
+
+.container-wrapper--blue {
+    background: rgb(96, 155, 167, 0.2)
+}
+
+/* Page Headers */
+
+.page-header {
+    color: #DE7544;
+    margin-bottom: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.10em;
+    font-size: 1.5em;
+}
+
