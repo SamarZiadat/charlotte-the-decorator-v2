@@ -16,6 +16,14 @@ body {
     margin-left: auto;
 }
 
+h1 {
+    font-size: 1.5em;
+}
+
+i {
+    color: #609BA7;
+}
+
 /* Content Containers */
 
 .content-container {
@@ -23,7 +31,7 @@ body {
     padding-bottom: 50px;
 }
 
-/* Container Wrappers*/
+/* Container Wrappers */
 
 .container-wrapper--blue {
     background: rgb(96, 155, 167, 0.2)
@@ -37,13 +45,13 @@ body {
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    font-size: 1.5em;
+    font-weight: bold;
 }
 
 /* Tables */
 
 .table {
-    width: 60%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
     --bs-table-striped-bg: rgb(222, 117, 68, 0.1);;
