@@ -41,7 +41,7 @@ i {
 
 .page-header {
     color: #DE7544;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 0.05em;
@@ -51,14 +51,24 @@ i {
 /* Tables */
 
 .table {
-    width: 80%;
     margin-left: auto;
     margin-right: auto;
-    --bs-table-striped-bg: rgb(222, 117, 68, 0.1);;
+    --bs-table-striped-bg: rgb(222, 117, 68, 0.1);
 }
 
 th {
     color: #609BA7;
     text-transform: uppercase;
     font-weight: bold;
+}
+
+/* About Divs */
+
+.charlotte-image {
+    display: flex;
+    justify-content: center;
+}
+
+.about-text {
+    padding: 20px;
 }
