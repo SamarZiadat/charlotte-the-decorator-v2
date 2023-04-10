@@ -17,7 +17,7 @@
 <body>
     <!-- Nav -->
     <div class="nav-container">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
                     <img src="assets/images/logo-landscape.webp" alt="Charlotte the Decorator logo" width="100%"
@@ -30,8 +30,12 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav ms-auto">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        <a class="nav-link" href="#">Gallery</a>
+                        <a class="nav-link" href="#about-section">About</a>
+                        <a class="nav-link" href="#services-section">Services</a>
+                        <a class="nav-link" href="#testimonials-section">Testimonials</a>
+                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="https://www.instagram.com/charlotte_the_decorator/"
+                            target="_blank">Gallery&#8599;</a>
                     </div>
                 </div>
             </div>
@@ -47,7 +51,7 @@
     <!-- About -->
     <div class="container-wrapper container-wrapper--blue">
         <div class="content-container about-container">
-            <section class="about-section">
+            <section id="about-section">
                 <div class="col-12 page-header">
                     <h1 class="about-header">About</h1>
                 </div>
@@ -85,7 +89,7 @@
     <!-- Services -->
     <div class="container-wrapper">
         <div class="content-container services-container">
-            <section class="services-section">
+            <section id="services-section">
                 <div class="col-12 page-header">
                     <h1 class="services-header">Services</h1>
                 </div>
@@ -164,7 +168,7 @@
     <!-- Testimonials -->
     <div class="container-wrapper container-wrapper--blue">
         <div class="content-container testimonials-container">
-            <section class="testimonials-section">
+            <section id="testimonials-section">
                 <div class="col-12 page-header">
                     <h1 class="testimonials-header">Testimonials</h1>
                 </div>
@@ -218,6 +222,31 @@
                             </div>
                         </div>
                     </div>
+            </section>
+        </div>
+    </div>
+    <!-- /.testimonials -->
+    <!-- About -->
+    <div class="container-wrapper container-wrapper">
+        <div class="content-container contact-container">
+            <section id="contact-section">
+                <div class="col-12 page-header">
+                    <h1 class="contact-header">Contact</h1>
+                </div>
+                <div class="mb-3">
+                    <label for="full-name" class="form-label">Full name</label>
+                    <input type="text" class="form-control" id="full-name" name="sender-name"
+                        placeholder="Your name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email-address" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="email-address" name="sender-address"
+                        placeholder="Your email address" required>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" name="sender-message" placeholder="Hi Charlotte, ..." rows="6" required></textarea>
+                </div>
             </section>
         </div>
     </div>

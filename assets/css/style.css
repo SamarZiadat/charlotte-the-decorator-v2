@@ -72,3 +72,16 @@ th {
 .about-text {
     padding: 20px;
 }
+
+/* Navigation Bar */
+
+.nav-link {
+    color: #609BA7;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: #DE7544;
+  }
