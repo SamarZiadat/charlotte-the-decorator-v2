@@ -17,11 +17,31 @@ body {
 }
 
 h1 {
-    font-size: 1.5em;
+    font-size: 1.8em;
+}
+
+h2 {
+    font-size: 1.25em;
+    font-weight: bold;
+    color: #609BA7;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 1.1em;
 }
 
 i {
     color: #609BA7;
+}
+
+a {
+    text-decoration: none;
+    color: #4d4d4d;
+}
+
+a:hover {
+    color:rgb(222, 117, 68);
 }
 
 /* Content Containers */
@@ -56,12 +76,6 @@ i {
     --bs-table-striped-bg: rgb(222, 117, 68, 0.1);
 }
 
-th {
-    color: #609BA7;
-    text-transform: uppercase;
-    font-weight: bold;
-}
-
 /* About Divs */
 
 .charlotte-image {
@@ -69,8 +83,12 @@ th {
     justify-content: center;
 }
 
-.about-text {
+.about-bulletpoints {
     padding: 20px;
+}
+
+.about-text {
+    padding-top: 15px;
 }
 
 /* Nav Bar */
@@ -116,3 +134,8 @@ form {
     --bs-btn-bg: rgb(222, 117, 68, 0.7);
 }
 
+/* Contact Form */
+
+.footer-h2 {
+    padding-bottom: 10px;
+}
