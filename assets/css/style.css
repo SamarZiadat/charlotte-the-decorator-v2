@@ -81,6 +81,8 @@ a:hover {
 .charlotte-image {
     display: flex;
     justify-content: center;
+    height: auto;
+    max-width: 100%;
 }
 
 .about-bulletpoints {
@@ -142,8 +144,13 @@ form {
 
 .footer-logos {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
+}
+
+.qualification-logo {
+    height: auto;
+    max-width: 40%;
 }
 
 .footer-qualifications {
