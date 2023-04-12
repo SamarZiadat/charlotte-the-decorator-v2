@@ -22,7 +22,6 @@ h1 {
 
 h2 {
     font-size: 1.25em;
-    font-weight: bold;
     color: #609BA7;
     text-transform: uppercase;
 }
@@ -41,14 +40,14 @@ a {
 }
 
 a:hover {
-    color:rgb(222, 117, 68);
+    color: rgb(222, 117, 68);
 }
 
 /* Content Containers */
 
 .content-container {
-    padding-top: 30px;
-    padding-bottom: 50px;
+    padding-top: 4em;
+    padding-bottom: 4em;
 }
 
 /* Container Wrappers */
@@ -61,7 +60,7 @@ a:hover {
 
 .page-header {
     color: #DE7544;
-    margin-bottom: 50px;
+    margin-bottom: 4em;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 0.05em;
@@ -76,7 +75,7 @@ a:hover {
     --bs-table-striped-bg: rgb(222, 117, 68, 0.1);
 }
 
-/* About Divs */
+/* About Section */
 
 .charlotte-image {
     display: flex;
@@ -99,7 +98,6 @@ a:hover {
     color: #609BA7;
     text-decoration: none;
     text-transform: uppercase;
-    font-weight: bold;
 }
 
 .nav-link:hover {
@@ -119,10 +117,10 @@ form {
 }
 
 .form-control {
-  border: 1px solid rgb(222, 117, 68, 0.7);
-  border-radius: 4px;
-  background-color: white;
-  color: #4d4d4d;
+    border: 1px solid rgb(222, 117, 68, 0.7);
+    border-radius: 4px;
+    background-color: white;
+    color: #4d4d4d;
 }
 
 .btn {
@@ -142,6 +140,20 @@ form {
     padding-bottom: 10px;
 }
 
+.footer-contact {
+    padding-top: 2em;
+}
+
+.footer-socials {
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.fa-brands {
+    font-size: 1.8em;
+    padding-right: 0.5em;
+}
+
 .footer-logos {
     display: flex;
     justify-content: flex-end;
@@ -149,8 +161,8 @@ form {
 }
 
 .qualification-logo {
-    height: auto;
-    max-width: 40%;
+    flex-shrink: 5;
+    margin-left: 1em;
 }
 
 .footer-qualifications {
@@ -158,6 +170,28 @@ form {
     justify-content: center;
     flex-direction: column;
 }
+
 .footer-logos-text {
     text-align: right;
+    padding-top: 0.5em;
+    font-size: 0.9em;
+}
+
+.footer-copyright {
+    padding-top: 3em;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    text-transform: uppercase;
+    font-size: 0.7em;
+}
+
+@media only screen and (max-width: 992px) {
+    .footer-logos {
+        justify-content: center;
+    }
+
+    .footer-logos-text {
+        text-align: center;
+    }
 }
