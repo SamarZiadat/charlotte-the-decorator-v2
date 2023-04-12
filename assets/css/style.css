@@ -139,3 +139,18 @@ form {
 .footer-h2 {
     padding-bottom: 10px;
 }
+
+.footer-logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-qualifications {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.footer-logos-text {
+    text-align: right;
+}
