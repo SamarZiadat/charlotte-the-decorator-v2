@@ -128,9 +128,16 @@ form {
     --bs-btn-color: white;
     --bs-btn-bg: rgb(222, 117, 68);
     --bs-btn-border-color: rgb(222, 117, 68);
-    --bs-btn-hover-border-color: rgb(222, 117, 68, 0.7);
-    --bs-btn-hover-color: white;
-    --bs-btn-hover-bg: rgb(222, 117, 68, 0.7);
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-default {
+    background-color: rgb(222, 117, 68, 0.7);
+    color: white;
+    border-color: rgb(222, 117, 68, 0.7);
 }
 
 /* Contact Form */
